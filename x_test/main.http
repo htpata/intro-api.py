@@ -1,0 +1,5 @@
+#  invocar api main
+#
+#
+GET http://localhost:8888 HTTP/1.1
+content-type: application/json

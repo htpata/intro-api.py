@@ -1,0 +1,9 @@
+###
+# generar mini-historia
+
+POST http://localhost:9999/mini-historia HTTP/1.1
+content-type: application/json
+
+{
+    "palabra_base": "cohete"
+}

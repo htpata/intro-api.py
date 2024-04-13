@@ -1,0 +1,6 @@
+# web framework flask para crear APIs
+flask
+# librería python SDK para utilizar API de Google Gemini
+google-generativeai
+# librería para leer archivos de configuración .env
+python-dotenv

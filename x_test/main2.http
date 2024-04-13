@@ -1,0 +1,47 @@
+###
+# listar productos
+
+GET http://localhost:8888/productos HTTP/1.1
+content-type: application/json
+
+###
+# leer un producto
+
+GET http://localhost:8888/productos/9 HTTP/1.1
+content-type: application/json
+
+###
+# leer un producto que no existe
+
+GET http://localhost:8888/productos/534549 HTTP/1.1
+content-type: application/json
+
+###
+# grabar un producto
+
+POST http://localhost:8888/productos HTTP/1.1
+content-type: application/json
+
+{
+    "id":50,
+    "nombre":"adaptador USB",
+    "precio":55
+}
+
+###
+# borrar un producto
+
+DELETE http://localhost:8888/productos/5 HTTP/1.1
+content-type: application/json
+
+###
+# actualizar un producto
+
+PUT http://localhost:8888/productos/50 HTTP/1.1
+content-type: application/json
+
+{
+    "id":50,
+    "nombre":"adaptador USB especial",
+    "precio":550
+}
